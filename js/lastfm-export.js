@@ -20,7 +20,7 @@ function requestData(api_key, user, page){
     method:'user.getrecenttracks',
     user:user,
     api_key:api_key,
-    limit:200,
+    limit:15,
     page: page || 1
   }
 }
